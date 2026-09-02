@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgTerra" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a151b" />
+      <stop offset="100%" stop-color="#11242e" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgTerra)" rx="16" />
+  <rect x="20" y="20" width="760" height="410" fill="none" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1.5" rx="12" />
+
+  <text x="50" y="55" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="bold">HERMETIC GLASS BIOSPHERE TERRARIUMS</text>
+  <text x="50" y="75" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="13">100% Sealed Ecosystem • Internal Water &amp; Carbon Cycle • Self-Sustaining Living Decor</text>
+
+  <!-- Large Apothecary Glass Jar Diagram -->
+  <g transform="translate(100, 105)">
+    <!-- Glass Bottle Contour -->
+    <path d="M 80 20 L 140 20 L 140 50 Q 220 70 220 180 Q 220 280 170 280 L 50 280 Q 0 280 0 180 Q 0 70 80 50 Z" fill="rgba(255, 255, 255, 0.05)" stroke="#38bdf8" stroke-width="2.5" />
+    
+    <!-- Cork Stopper Top -->
+    <rect x="85" y="0" width="50" height="22" fill="#78350f" stroke="#451a03" stroke-width="2" rx="3" />
+    <text x="110" y="15" text-anchor="middle" fill="#fef08a" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="bold">Hermetic Seal</text>
+
+    <!-- Internal Condensation Drops on Glass -->
+    <circle cx="30" cy="110" r="3" fill="#38bdf8" opacity="0.8" />
+    <circle cx="45" cy="85" r="2.5" fill="#38bdf8" opacity="0.8" />
+    <circle cx="190" cy="120" r="3" fill="#38bdf8" opacity="0.8" />
+    <circle cx="180" cy="95" r="2.5" fill="#38bdf8" opacity="0.8" />
+
+    <!-- Substrate Layers Bottom -->
+    <!-- Drainage Pebbles -->
+    <rect x="5" y="255" width="210" height="22" fill="#64748b" rx="0 0 12 12" />
+    <!-- Charcoal Filter Layer -->
+    <rect x="5" y="245" width="210" height="10" fill="#0f172a" />
+    <!-- Soil Layer -->
+    <rect x="5" y="210" width="210" height="35" fill="#3f2e21" />
+
+    <!-- Internal Live Plants -->
+    <!-- Moss Mound -->
+    <ellipse cx="60" cy="210" rx="35" ry="12" fill="#15803d" />
+    <ellipse cx="150" cy="210" rx="45" ry="14" fill="#16a34a" />
+
+    <!-- Miniature Fern -->
+    <g transform="translate(110, 210)">
+      <path d="M 0 0 Q -20 -40 -35 -60 Q -10 -30 0 0" fill="#22c55e" />
+      <path d="M 0 0 Q 0 -50 0 -75 Q 15 -40 0 0" fill="#4ade80" />
+      <path d="M 0 0 Q 20 -40 35 -60 Q 10 -30 0 0" fill="#16a34a" />
+    </g>
+  </g>
+
+  <!-- Explanatory Box Right -->
+  <g transform="translate(390, 105)">
+    <rect width="360" height="295" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(56, 189, 248, 0.3)" rx="8" />
+    <text x="20" y="32" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="bold">CLOSED BIOSPHERE MECHANICS</text>
+    
+    <text x="20" y="65" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">1. 100% Closed Hydrological Cycle</text>
+    <text x="20" y="85" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Moisture evaporates, condenses on glass, and rains back down.</text>
+
+    <text x="20" y="120" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">2. Balanced Photosynthesis &amp; Respiration</text>
+    <text x="20" y="140" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Plants generate O2 by day and absorb CO2 from soil bacteria.</text>
+
+    <text x="20" y="175" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">3. Zero Maintenance For Years</text>
+    <text x="20" y="195" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Never needs opening or watering after initial balancing.</text>
+
+    <text x="20" y="230" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">4. Workspace Placement</text>
+    <text x="20" y="250" fill="#34d399" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Meeting tables, focus study carrels, podcast desk centerpieces.</text>
+  </g>
+</svg>

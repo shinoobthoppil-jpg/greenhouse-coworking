@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgCassette" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081820" />
+      <stop offset="100%" stop-color="#122a36" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgCassette)" rx="16" />
+  <rect x="20" y="20" width="760" height="410" fill="none" stroke="rgba(6, 182, 212, 0.3)" stroke-width="1.5" rx="12" />
+
+  <text x="50" y="55" fill="#06b6d4" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="bold">MODULAR CASSETTE LIVING WALL SYSTEM</text>
+  <text x="50" y="75" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="13">Interlocking Polypropylene Modules • Individual Swappable Plant Drawers • Integrated Gutters</text>
+
+  <!-- Cassette Wall Grid -->
+  <g transform="translate(80, 110)">
+    <!-- Rail Tracks -->
+    <rect x="0" y="0" width="8" height="290" fill="#64748b" />
+    <rect x="110" y="0" width="8" height="290" fill="#64748b" />
+    <rect x="220" y="0" width="8" height="290" fill="#64748b" />
+    <rect x="330" y="0" width="8" height="290" fill="#64748b" />
+
+    <!-- Cassette 1 (Top Left) -->
+    <g transform="translate(15, 10)">
+      <rect width="90" height="75" fill="url(#boxGrad)" stroke="#06b6d4" stroke-width="1.5" rx="6" />
+      <circle cx="45" cy="25" r="22" fill="#22c55e" />
+      <circle cx="30" cy="20" r="16" fill="#16a34a" />
+      <circle cx="60" cy="22" r="18" fill="#15803d" />
+    </g>
+
+    <!-- Cassette 2 (Top Mid) -->
+    <g transform="translate(125, 10)">
+      <rect width="90" height="75" fill="url(#boxGrad)" stroke="#06b6d4" stroke-width="1.5" rx="6" />
+      <circle cx="45" cy="25" r="22" fill="#10b981" />
+      <circle cx="30" cy="20" r="17" fill="#34d399" />
+    </g>
+
+    <!-- Cassette 3 (Top Right - Exploded View) -->
+    <g transform="translate(255, 5)">
+      <rect width="90" height="75" fill="url(#boxGrad)" stroke="#f59e0b" stroke-width="2" stroke-dasharray="3,3" rx="6" />
+      <circle cx="45" cy="25" r="20" fill="#4ade80" />
+      <text x="45" y="60" text-anchor="middle" fill="#f59e0b" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="bold">Click Out</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(15, 100)"><rect width="90" height="75" fill="url(#boxGrad)" stroke="#06b6d4" stroke-width="1.5" rx="6" /><circle cx="45" cy="25" r="22" fill="#10b981" /></g>
+    <g transform="translate(125, 100)"><rect width="90" height="75" fill="url(#boxGrad)" stroke="#06b6d4" stroke-width="1.5" rx="6" /><circle cx="45" cy="25" r="24" fill="#22c55e" /></g>
+    <g transform="translate(235, 100)"><rect width="90" height="75" fill="url(#boxGrad)" stroke="#06b6d4" stroke-width="1.5" rx="6" /><circle cx="45" cy="25" r="22" fill="#15803d" /></g>
+
+    <!-- Row 3 -->
+    <g transform="translate(15, 190)"><rect width="90" height="75" fill="url(#boxGrad)" stroke="#06b6d4" stroke-width="1.5" rx="6" /><circle cx="45" cy="25" r="22" fill="#22c55e" /></g>
+    <g transform="translate(125, 190)"><rect width="90" height="75" fill="url(#boxGrad)" stroke="#06b6d4" stroke-width="1.5" rx="6" /><circle cx="45" cy="25" r="22" fill="#10b981" /></g>
+    <g transform="translate(235, 190)"><rect width="90" height="75" fill="url(#boxGrad)" stroke="#06b6d4" stroke-width="1.5" rx="6" /><circle cx="45" cy="25" r="24" fill="#16a34a" /></g>
+  </g>
+
+  <!-- Explanatory Box Right -->
+  <g transform="translate(470, 105)">
+    <rect width="280" height="295" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(6, 182, 212, 0.3)" rx="8" />
+    <text x="20" y="32" fill="#06b6d4" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="bold">CASSETTE FEATURES</text>
+    
+    <text x="20" y="65" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">1. Modular Click-In Bricks</text>
+    <text x="20" y="85" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Pre-grown cassettes clip onto structural rails.</text>
+
+    <text x="20" y="120" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">2. 60-Second Plant Replacement</text>
+    <text x="20" y="140" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Swap unhealthy plants instantly without tools.</text>
+
+    <text x="20" y="175" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">3. Internal Drainage Gutters</text>
+    <text x="20" y="195" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Water cascades internally with zero wall leaks.</text>
+
+    <text x="20" y="230" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">4. Best Indoor Plants</text>
+    <text x="20" y="250" fill="#34d399" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Aglaonema, Anthuriums, Calatheas, Dracaenas.</text>
+  </g>
+</svg>

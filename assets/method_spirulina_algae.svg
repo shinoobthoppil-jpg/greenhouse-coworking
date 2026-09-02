@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgAlgae" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061a14" />
+      <stop offset="100%" stop-color="#0a2c20" />
+    </linearGradient>
+    <linearGradient id="tubeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#10b981" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#047857" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgAlgae)" rx="16" />
+  <rect x="20" y="20" width="760" height="410" fill="none" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1.5" rx="12" />
+
+  <text x="50" y="55" fill="#10b981" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="bold">SPIRULINA ALGAE PHOTOBIOREACTOR COLUMNS</text>
+  <text x="50" y="75" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="13">High-Rate Biological CO2 Capture (10x Trees) • Pure O2 Emission • Illuminated Green Art</text>
+
+  <!-- Photobioreactor Column 1 -->
+  <g transform="translate(100, 100)">
+    <rect x="0" y="0" width="60" height="280" fill="url(#tubeGrad)" stroke="#34d399" stroke-width="2" rx="10" />
+    <!-- Air Bubbles -->
+    <circle cx="30" cy="240" r="4" fill="#ffffff" opacity="0.8" />
+    <circle cx="22" cy="200" r="5" fill="#ffffff" opacity="0.7" />
+    <circle cx="38" cy="160" r="6" fill="#ffffff" opacity="0.8" />
+    <circle cx="28" cy="110" r="5" fill="#ffffff" opacity="0.7" />
+    <circle cx="32" cy="60" r="4" fill="#ffffff" opacity="0.9" />
+    <!-- Top Cap & Base -->
+    <rect x="-6" y="-8" width="72" height="12" fill="#334155" rx="3" />
+    <rect x="-8" y="276" width="76" height="16" fill="#1e293b" rx="4" />
+  </g>
+
+  <!-- Photobioreactor Column 2 -->
+  <g transform="translate(190, 100)">
+    <rect x="0" y="0" width="60" height="280" fill="url(#tubeGrad)" stroke="#34d399" stroke-width="2" rx="10" />
+    <circle cx="28" cy="250" r="5" fill="#ffffff" opacity="0.8" />
+    <circle cx="35" cy="190" r="4" fill="#ffffff" opacity="0.7" />
+    <circle cx="25" cy="130" r="6" fill="#ffffff" opacity="0.8" />
+    <circle cx="34" cy="80" r="5" fill="#ffffff" opacity="0.9" />
+    <rect x="-6" y="-8" width="72" height="12" fill="#334155" rx="3" />
+    <rect x="-8" y="276" width="76" height="16" fill="#1e293b" rx="4" />
+  </g>
+
+  <!-- Photobioreactor Column 3 -->
+  <g transform="translate(280, 100)">
+    <rect x="0" y="0" width="60" height="280" fill="url(#tubeGrad)" stroke="#34d399" stroke-width="2" rx="10" />
+    <circle cx="32" cy="230" r="5" fill="#ffffff" opacity="0.8" />
+    <circle cx="24" cy="170" r="6" fill="#ffffff" opacity="0.7" />
+    <circle cx="36" cy="100" r="4" fill="#ffffff" opacity="0.8" />
+    <circle cx="28" cy="50" r="5" fill="#ffffff" opacity="0.9" />
+    <rect x="-6" y="-8" width="72" height="12" fill="#334155" rx="3" />
+    <rect x="-8" y="276" width="76" height="16" fill="#1e293b" rx="4" />
+  </g>
+
+  <!-- Explanatory Box Right -->
+  <g transform="translate(390, 100)">
+    <rect width="360" height="295" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(16, 185, 129, 0.3)" rx="8" />
+    <text x="20" y="32" fill="#10b981" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="bold">MICROALGAE BIOREACTOR SPECS</text>
+    
+    <text x="20" y="65" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">1. Borosilicate Glass Columns</text>
+    <text x="20" y="85" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">3-meter tall columns with continuous micro-air bubbling.</text>
+
+    <text x="20" y="120" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">2. Massive Carbon Capture (10x Trees)</text>
+    <text x="20" y="140" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Microalgae consumes exhaled coworker CO2 rapidly.</text>
+
+    <text x="20" y="175" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">3. Oxygen Enrichment &amp; Bio-Lighting</text>
+    <text x="20" y="195" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Releases pure O2 into lounge air; glows emerald at night.</text>
+
+    <text x="20" y="230" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">4. Superfood Harvesting</text>
+    <text x="20" y="250" fill="#34d399" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Weekly filtration yields raw protein-rich Spirulina paste.</text>
+  </g>
+</svg>

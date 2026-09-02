@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgNft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081b26" />
+      <stop offset="100%" stop-color="#0d2e3f" />
+    </linearGradient>
+    <linearGradient id="pvcGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#e2e8f0" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgNft)" rx="16" />
+  <rect x="20" y="20" width="760" height="410" fill="none" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1.5" rx="12" />
+
+  <text x="50" y="55" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="bold">NUTRIENT FILM TECHNIQUE (NFT) GUTTERS</text>
+  <text x="50" y="75" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="13">Continuous Recirculating Shallow Nutrient Stream (1-2mm Film)</text>
+
+  <!-- Multi-Tier Sloped NFT Gutters -->
+  <!-- Tier 1 -->
+  <g transform="translate(60, 110)">
+    <polygon points="0,0 420,15 420,45 0,30" fill="url(#pvcGrad)" stroke="#334155" stroke-width="1.5" />
+    <!-- Net Pots with Greens -->
+    <g transform="translate(40, -5)"><rect x="0" y="0" width="22" height="15" fill="#0f172a" rx="2"/><circle cx="11" cy="-8" r="16" fill="#22c55e"/></g>
+    <g transform="translate(130, -2)"><rect x="0" y="0" width="22" height="15" fill="#0f172a" rx="2"/><circle cx="11" cy="-8" r="17" fill="#16a34a"/></g>
+    <g transform="translate(220, 1)"><rect x="0" y="0" width="22" height="15" fill="#0f172a" rx="2"/><circle cx="11" cy="-8" r="16" fill="#22c55e"/></g>
+    <g transform="translate(310, 4)"><rect x="0" y="0" width="22" height="15" fill="#0f172a" rx="2"/><circle cx="11" cy="-8" r="18" fill="#15803d"/></g>
+  </g>
+
+  <!-- Tier 2 -->
+  <g transform="translate(60, 190)">
+    <polygon points="420,0 0,15 0,45 420,30" fill="url(#pvcGrad)" stroke="#334155" stroke-width="1.5" />
+    <g transform="translate(70, 7)"><rect x="0" y="0" width="22" height="15" fill="#0f172a" rx="2"/><circle cx="11" cy="-8" r="16" fill="#10b981"/></g>
+    <g transform="translate(160, 4)"><rect x="0" y="0" width="22" height="15" fill="#0f172a" rx="2"/><circle cx="11" cy="-8" r="17" fill="#059669"/></g>
+    <g transform="translate(250, 1)"><rect x="0" y="0" width="22" height="15" fill="#0f172a" rx="2"/><circle cx="11" cy="-8" r="16" fill="#10b981"/></g>
+    <g transform="translate(340, -2)"><rect x="0" y="0" width="22" height="15" fill="#0f172a" rx="2"/><circle cx="11" cy="-8" r="18" fill="#047857"/></g>
+  </g>
+
+  <!-- Tier 3 -->
+  <g transform="translate(60, 270)">
+    <polygon points="0,0 420,15 420,45 0,30" fill="url(#pvcGrad)" stroke="#334155" stroke-width="1.5" />
+    <g transform="translate(40, -5)"><rect x="0" y="0" width="22" height="15" fill="#0f172a" rx="2"/><circle cx="11" cy="-8" r="16" fill="#22c55e"/></g>
+    <g transform="translate(130, -2)"><rect x="0" y="0" width="22" height="15" fill="#0f172a" rx="2"/><circle cx="11" cy="-8" r="17" fill="#16a34a"/></g>
+    <g transform="translate(220, 1)"><rect x="0" y="0" width="22" height="15" fill="#0f172a" rx="2"/><circle cx="11" cy="-8" r="16" fill="#22c55e"/></g>
+    <g transform="translate(310, 4)"><rect x="0" y="0" width="22" height="15" fill="#0f172a" rx="2"/><circle cx="11" cy="-8" r="18" fill="#15803d"/></g>
+  </g>
+
+  <!-- Reservoir & Return Pump -->
+  <rect x="60" y="345" width="130" height="60" fill="#0f172a" stroke="#38bdf8" stroke-width="2" rx="6" />
+  <text x="75" y="380" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="bold">WATER TANK</text>
+
+  <!-- Explanatory Box -->
+  <g transform="translate(500, 110)">
+    <rect width="250" height="295" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(56, 189, 248, 0.3)" rx="8" />
+    <text x="18" y="30" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="bold">NFT OPERATING PRINCIPLE</text>
+    
+    <text x="18" y="65" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">1. 1:40 Slope Angle (2.5%)</text>
+    <text x="18" y="85" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Gravity drives nutrient film smoothly.</text>
+
+    <text x="18" y="120" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">2. Shallow 1-2mm Water Stream</text>
+    <text x="18" y="140" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Upper root zone gets 100% atmospheric oxygen.</text>
+
+    <text x="18" y="175" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">3. Continuous Recirculation</text>
+    <text x="18" y="195" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Submersible pump cycles water 24/7.</text>
+
+    <text x="18" y="230" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">4. Ideal Crops</text>
+    <text x="18" y="250" fill="#34d399" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Butterhead lettuce, mint, strawberries, Asian pak choi.</text>
+  </g>
+</svg>

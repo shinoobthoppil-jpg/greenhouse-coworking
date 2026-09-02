@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgMob" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#27272a" />
+    </linearGradient>
+    <linearGradient id="oakGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="100%" stop-color="#78350f" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgMob)" rx="16" />
+  <rect x="20" y="20" width="760" height="410" fill="none" stroke="rgba(245, 158, 11, 0.3)" stroke-width="1.5" rx="12" />
+
+  <text x="50" y="55" fill="#f59e0b" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="bold">MOBILE BIOPHILIC ROLLING DIVIDER</text>
+  <text x="50" y="75" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="13">Flexible Reconfigurable Partitions • Lockable Casters • Built-In AC/USB Charging Hubs</text>
+
+  <!-- Rolling Divider Diagram -->
+  <g transform="translate(100, 110)">
+    <!-- Steel Outer Frame -->
+    <rect x="0" y="0" width="260" height="270" fill="none" stroke="#64748b" stroke-width="4" rx="6" />
+
+    <!-- Oak Planter Box Bottom -->
+    <rect x="10" y="160" width="240" height="95" fill="url(#oakGrad)" stroke="#451a03" stroke-width="2" rx="4" />
+    <text x="130" y="215" text-anchor="middle" fill="#fef08a" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="bold">SUB-IRRIGATED TROUGH</text>
+
+    <!-- Power Outlet Strip -->
+    <rect x="180" y="175" width="60" height="20" fill="#0f172a" rx="3" />
+    <text x="210" y="189" text-anchor="middle" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="bold">⚡ 230V+USB</text>
+
+    <!-- Vertical Snake Plants (Sansevieria) -->
+    <g transform="translate(30, 20)">
+      <polygon points="10,140 15,10 20,140" fill="#15803d" stroke="#facc15" stroke-width="1" />
+      <polygon points="30,140 38,0 45,140" fill="#16a34a" stroke="#facc15" stroke-width="1" />
+      <polygon points="60,140 68,15 75,140" fill="#15803d" stroke="#facc15" stroke-width="1" />
+      <polygon points="90,140 98,-5 105,140" fill="#16a34a" stroke="#facc15" stroke-width="1" />
+      <polygon points="120,140 128,10 135,140" fill="#15803d" stroke="#facc15" stroke-width="1" />
+      <polygon points="150,140 158,5 165,140" fill="#16a34a" stroke="#facc15" stroke-width="1" />
+      <polygon points="180,140 188,20 195,140" fill="#15803d" stroke="#facc15" stroke-width="1" />
+    </g>
+
+    <!-- Wheels / Casters -->
+    <circle cx="30" cy="280" r="10" fill="#334155" stroke="#94a3b8" stroke-width="2" />
+    <circle cx="230" cy="280" r="10" fill="#334155" stroke="#94a3b8" stroke-width="2" />
+  </g>
+
+  <!-- Explanatory Box Right -->
+  <g transform="translate(420, 105)">
+    <rect width="330" height="295" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(245, 158, 11, 0.3)" rx="8" />
+    <text x="20" y="32" fill="#f59e0b" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="bold">MOBILE SCREEN FUNCTIONALITY</text>
+    
+    <text x="20" y="65" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">1. Instant Space Reconfiguration</text>
+    <text x="20" y="85" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Roll dividers to create workshop zones or event halls.</text>
+
+    <text x="20" y="120" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">2. Integrated Power Architecture</text>
+    <text x="20" y="140" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Daisy-chained power connectors supply laptop electricity.</text>
+
+    <text x="20" y="175" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">3. Acoustic &amp; Visual Buffer</text>
+    <text x="20" y="195" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Dense Sansevieria leaves scatter office noise &amp; glare.</text>
+
+    <text x="20" y="230" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">4. Lockable Heavy-Duty Casters</text>
+    <text x="20" y="250" fill="#34d399" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5">Smooth polyurethane wheels with foot brake locks.</text>
+  </g>
+</svg>
